@@ -12,7 +12,7 @@ public class GamePanel extends JPanel {
     static final int UNIT_SIZE = 25;
     static final int GAME_UNITS = (SCREEN_WIDTH*SCREEN_HEIGHT)/UNIT_SIZE;
     static final int DELAY = 75;
-    final int x[] = new int{}
+    //final int x[] = new int{}
     GamePanel() {
 
     }
@@ -44,7 +44,7 @@ public class GamePanel extends JPanel {
 
     }
     public class MyKeyAdapter extends KeyAdapter {
-        @Override
+        //@Override
         public void keyPresed(KeyEvent e) {
 
         }
